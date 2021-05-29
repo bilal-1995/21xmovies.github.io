@@ -1,0 +1,128 @@
+<style>
+body{
+  background-color: whitesmoke;
+  width: auto;
+}
+h1{
+  color: forestgreen;
+  font-size: 50px;
+}
+h2{
+  background-color: seagreen;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  border-radius: 10px;
+}
+ h3{
+    background-color: seagreen;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    width: 50%;
+    border-radius: 10px;
+    }
+    nav{
+      background-color: gray;
+      overflow: hidden;
+      border-radius: 10px;
+      padding: 5px;
+      width: auto;
+    }
+    nav ul {
+      list-style-type: none;
+     }
+     nav ul li {
+       float: left;
+
+     }
+     nav ul li a{
+       text-decoration: none;
+       padding: 5px 5px;
+       font-size: 20px;
+       display: inline-block;
+
+     }
+     nav ul li a:hover{
+       background-color: skyblue;
+       border-radius: 10px;
+       color: white;
+       padding: 5px;
+
+     }
+     nav ul li a.active{
+       background-color: forestgreen;
+       border-radius: 10px;
+       color: white;
+        padding: 5px;
+     }
+  section{
+    padding: 5px;
+font-size: 10px;
+    margin-left: 150px;
+  }
+  article{
+    padding: 5px;
+
+
+    margin: 5px;
+
+  }
+  #search{
+    float: right;
+   padding: 5px;
+
+  }
+  aside{
+    background-color: gray;
+    overflow: hidden;
+    border-radius: 10px;
+    padding: 1px;
+    margin: 1px;
+    float: left;
+    width: 150px;
+    overflow-y: scroll;
+  }
+  aside ul {
+    list-style-type: none;
+   }
+   aside ul li {
+     float: left;
+     padding: 1px;
+
+   }
+   aside ul li a{
+     text-decoration: none;
+     padding: 5px 5px;
+     font-size: 15px;
+     display: block;
+     margin: 5px;
+
+   }
+   aside ul li a:hover{
+     background-color: skyblue;
+     border-radius: 10px;
+
+   }
+   aside ul li a.active{
+     background-color: forestgreen;
+     border-radius: 10px;
+
+   }
+   .link{
+font-size: 30px;
+padding: 10px 10px;
+
+
+
+   }
+   .info{
+
+font-size: 20px;
+
+   }
+   h4{
+     font-size: 25px;
+   }
+
+</style>
